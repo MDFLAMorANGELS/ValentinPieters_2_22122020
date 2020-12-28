@@ -36,7 +36,7 @@ a:link
 { 
  text-decoration:none; 
 } 
-nav:hover
+a:hover
 {
     color: #0065FC;
     border-top: #0065FC solid 5px;

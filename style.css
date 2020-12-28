@@ -104,24 +104,29 @@ h1
 {
     display: flex;
     font-weight: bold;
+    padding-left: 20px;
 }
 .titre2
 {
     display: flex;
     font-weight: bold;
-
+    padding-left: 20px;
 }
 .titre3
 {
     display: flex;
     font-weight: bold;
-
+    padding-left: 20px;
 }
 .titre4
 {
     display: flex;
     font-weight: bold;
-
+    padding-left: 20px;
+}
+.titre_filtre
+{
+    margin-right: 20px;
 }
 .icon_info
 {

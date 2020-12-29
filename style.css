@@ -32,11 +32,11 @@ body
     margin: 0px 225px 0px 225px;
     font-family: 'Raleway', sans-serif;
 }
-a:link 
+nav a:link 
 { 
  text-decoration:none; 
 } 
-a:hover
+nav a:hover
 {
     color: #0065FC;
     border-top: #0065FC solid 5px;
@@ -68,85 +68,79 @@ h1
 {
     display: flex;
 }
-.filtre1
+.filtre
 {
     display: flex;
     border: 2px solid #F2F2F2;
     border-radius: 2rem;
     margin-right: 20px;
     padding-right: 50px;
+    height: 48px;
 }
-.filtre2
+.filtre a:link
 {
-    display: flex;
-    border: 2px solid #F2F2F2;
-    border-radius: 2rem;
-    margin-right: 20px;
-    padding-right: 50px;
+    text-decoration: none;
 }
-.filtre3
+.filtre a:hover
 {
-    display: flex;
-    border: 2px solid #F2F2F2;
-    border-radius: 2rem;
-    margin-right: 20px;
-    padding-right: 50px;
-}
-.filtre4
-{
-    display: flex;
-    border: 2px solid #F2F2F2;
-    border-radius: 2rem;
-    margin-right: 20px;
-    padding-right: 50px;
+    color: #0065FC;
 }
 .titre1
 {
     display: flex;
     font-weight: bold;
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .titre2
 {
     display: flex;
     font-weight: bold;
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .titre3
 {
     display: flex;
     font-weight: bold;
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .titre4
 {
     display: flex;
     font-weight: bold;
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .titre_filtre
 {
     margin-right: 20px;
+    font-weight: 700;
 }
 .icon_info
 {
     color: #0065FC;
-    min-height: 2rem;
-    min-width: 2rem;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #DEEBFF;
+    border: 1px solid rgba(230, 230, 228, 0.8);
     margin-right: 1rem;
-    width: 10px;
-    height: 10px;
+    min-height: 2rem;
+    min-width: 2rem;
 }
 .info
 {
     display: flex;
+    align-items: center;
 }
 .infos
 {
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 0.9em;
 }

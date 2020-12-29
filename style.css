@@ -145,5 +145,8 @@ h1
 .info
 {
     display: flex;
-
+}
+.infos
+{
+    font-weight: 300;
 }

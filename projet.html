@@ -25,8 +25,21 @@
                 </ul>
              </nav>
         </div>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
+        <div class="sous_titre">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div class="search_bar">
+            <div class="icon_search">
+                <label for="ville"><i class="fas fa-map-marker-alt"></i></label>
+            </div>
+            <form class="form_ville" method="POST" action="#">
+                <input type="search" name="ville" id="ville" maxlength="25" value="Marseille, France" size="15" autofocus>
+            </form>
+            <div class="search_button">
+                <input type="submit" value="Rechercher" id="recherche"/> 
+            </div>
+        </div>
         <div class="filtres">
             <p class="titre_filtre">Filtres</p>
             <div class="filtre">
@@ -34,7 +47,7 @@
                     <i class="fas fa-money-bill-wave"></i>
                 </div>
                 <div class="titre1">
-                    <a href="#">Economique</a> 
+                    <a href="#" class="lien_filtre">Economique</a> 
                 </div>
             </div>
             <div class="filtre">
@@ -42,7 +55,7 @@
                     <i class="fas fa-child"></i>
                 </div>
                 <div class="titre2">
-                    <a href="#">Familial</a> 
+                    <a href="#" class="lien_filtre">Familial</a> 
                 </div>
             </div>
             <div class="filtre">
@@ -50,7 +63,7 @@
                     <i class="fas fa-heart"></i>
                 </div>
                 <div class="titre3">
-                    <a href="#">Romantique</a> 
+                    <a href="#" class="lien_filtre">Romantique</a> 
                 </div>
             </div>
             <div class="filtre">
@@ -58,7 +71,7 @@
                     <i class="fas fa-dog"></i>
                 </div>
                 <div class="titre4">
-                    <a href="#">Animaux autorisé</a> 
+                    <a href="#" class="lien_filtre">Animaux autorisé</a> 
                 </div>
             </div>
         </div>

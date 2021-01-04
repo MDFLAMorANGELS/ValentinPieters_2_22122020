@@ -177,3 +177,30 @@ h1
     font-weight: 400;
     font-size: 0.9em;
 }
+.block_centre
+{
+    display: flex;
+}
+.block1
+{
+    background-color: rgb(242, 242, 242);
+    padding: 1rem 5rem 2rem 3rem;
+    flex: 3;
+    margin-right: 2.5rem;
+}
+.block1_img1
+{
+    background-color: white;
+}
+
+.block2
+{
+    flex: 1;
+    background-color: rgb(242, 242, 242);
+    justify-content: center;
+    align-items: center;
+}
+.block2 h2
+{
+    text-align: center;
+}

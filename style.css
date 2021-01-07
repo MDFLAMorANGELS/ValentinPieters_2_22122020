@@ -34,7 +34,7 @@ body
 }
 nav a:link 
 { 
- text-decoration:none; 
+    text-decoration:none; 
 } 
 nav a:hover
 {
@@ -129,7 +129,7 @@ h1
     height: 48px;
     margin-bottom: 1rem;
 }
-.filtre a:link
+.filtre a
 {
     text-decoration: none;
 }
@@ -184,13 +184,15 @@ h1
 .block1
 {
     background-color: rgb(242, 242, 242);
-    padding: 1rem 5rem 2rem 3rem;
-    flex: 3;
-    margin-right: 2.5rem;
+    padding: 1rem 1rem 2rem 3rem;
+    margin-right: 3rem;
+    border-radius: 25px 25px 25px 25px;
+    width: 855px;
 }
 .hebergements
 {
     display: flex;
+    flex-wrap: wrap;
 }
 .hebergements a
 {
@@ -207,7 +209,56 @@ h1
 {
     margin-right: 50px;
     background-color: white;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    padding: 5px 5px 5px 5px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px 5px 10px 5px;
+    height: 245px;
+    margin-bottom: 30px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+}
+.heb a
+{
+    text-decoration: none;
+}
+.desc_hebergement:hover
+{
+    color: #0065FC;
+}
+.heb a
+{
+    color: black;
+}
+.star1 .fas
+{
+    color: #0065FC;
+}
+.star2 .fas
+{
+    color:rgb(242, 242, 242);
+    margin-left: 3px;
+
+}
+.note
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.star1
+{
+    margin-left: 10px;
+}
+.block1 .more a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.block2
+{
+    flex: 1;
+    background-color: rgb(242, 242, 242);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1rem;
+    margin-left: 1rem;
 }

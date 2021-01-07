@@ -30,7 +30,8 @@ nav
 }
 body
 {
-    margin: 0px 50px 0px 50px;
+    width: 1340px;
+    margin: auto;
     font-family: 'Raleway', sans-serif;
 }
 nav a:link 
@@ -278,7 +279,7 @@ h1
 }
 .block2
 {
-    flex: 1;
+    flex: 1.1;
     background-color: rgb(242, 242, 242);
     border-radius: 25px;
     text-align: center;

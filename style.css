@@ -1,13 +1,14 @@
-img
+.logo
 {
-    width: 110px;
-	height: 55px;
+    margin-top: 5%;
+    width: 23%;
+	height: 60%;
 }
 .tete
 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 2%;
 }
 ul
 {
@@ -29,7 +30,7 @@ nav
 }
 body
 {
-    margin: 0px 225px 0px 225px;
+    margin: 0px 50px 0px 50px;
     font-family: 'Raleway', sans-serif;
 }
 nav a:link 
@@ -48,12 +49,12 @@ nav a
 }
 .sous_titre
 {
-    margin-bottom: 2rem;
+    margin-bottom: 1%;
 }
 h1
 {
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 18px;
+    text-decoration: bold;
 }
 .search_bar
 {
@@ -177,77 +178,99 @@ h1
     font-weight: 400;
     font-size: 0.9em;
 }
-.block_centre
+.hosting
 {
     display: flex;
 }
-.block1
+.hosting_city
 {
     background-color: rgb(242, 242, 242);
-    padding: 1rem 1rem 2rem 3rem;
-    margin-right: 3rem;
+    padding: 1rem 0rem 2rem 2rem;
+    margin-right: 1.5rem;
     border-radius: 25px 25px 25px 25px;
-    flex: 3;
+    flex: 2.6;
 }
-.hebergements
+.hosting_city h2
+{
+    margin-right:0;
+}
+.hosting_city_list
 {
     display: flex;
     flex-wrap: wrap;
 }
-.hebergements a
+.hosting_city_list a
 {
     flex-direction: column;
 }
 .img_heb
 {
-    width: 225px;
+    width: 100%;
     height: 115px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    object-fit: cover;
+    object-position: center;
 }
-.heb
+.hosting_card
 {
-    margin-right: 50px;
+    width: 29%;
+    margin-right: 3%;
     background-color: white;
     border-radius: 25px 25px 25px 25px;
     padding: 5px 5px 10px 5px;
-    height: 245px;
     margin-bottom: 30px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
 }
-.heb a
+.hosting_card a
 {
     text-decoration: none;
 }
+.hosting_card h3
+{
+    margin: 0%;
+}
+
 .desc_hebergement:hover
 {
     color: #0065FC;
 }
-.heb a
+.desc_hebergement p
+{
+    margin: 0%;
+}
+.desc_hebergement
+{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+}
+.hosting_card a
 {
     color: black;
 }
-.star1 .fas
+.fas.blue
 {
     color: #0065FC;
 }
-.star2 .fas
+.fas.white
 {
     color:rgb(242, 242, 242);
     margin-left: 3px;
-
 }
 .note
 {
     position: relative;
     display: flex;
     align-items: center;
+    margin: 0%;
+    margin-left: 5%;
 }
-.star1
+.note p
 {
-    margin-left: 10px;
+    margin: 0%;
 }
-.block1 .more a
+.hosting_city .more a
 {
     text-decoration: none;
     color: black;

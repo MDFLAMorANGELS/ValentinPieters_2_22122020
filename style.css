@@ -186,7 +186,7 @@ h1
 .hosting_city
 {
     background-color: rgb(242, 242, 242);
-    padding: 1rem 0rem 2rem 2rem;
+    padding: 1rem 0rem 0rem 2rem;
     margin-right: 1.5rem;
     border-radius: 25px 25px 25px 25px;
     flex: 2.6;
@@ -270,6 +270,7 @@ h1
 .note p
 {
     margin: 0%;
+    padding-top: 12%;
 }
 .hosting_city .more a
 {
@@ -277,12 +278,81 @@ h1
     color: black;
     font-weight: bold;
 }
-.block2
+.hosting_popular
 {
     flex: 1.1;
     background-color: rgb(242, 242, 242);
     border-radius: 25px;
     text-align: center;
-    padding-top: 1rem;
-    margin-left: 1rem;
+    padding: 3% 1% 2% 1%;
+    margin-left: 0.2rem;
+}
+.hosting_card_popular
+{
+    display: flex;
+    flex-direction: column;
+}
+.title_hosting
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0% 5%;
+}
+.title_hosting_popular h2
+{
+    margin: 0%;
+}
+.icon_popular
+{
+    font-size: 150%;
+}
+.card_popular
+{
+    background-color: white;
+    border-radius: 25px;
+    padding: 1%;
+    display: flex;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+    margin: 4%;
+    width: 90%;
+}
+.card_popular .note
+{
+    margin: 0%;
+}
+.card_popular a 
+{
+    text-decoration: none;
+    color: black;
+}
+.card_popular a:hover
+{
+    color: #0065FC;
+}
+.img_pop
+{
+    width: 37%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    align-items: flex-start;
+    margin-right: 5%;
+    height: 145px;
+}
+.desc_poplular
+{
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 2% 8% 1% 0;
+}
+.desc_poplular h3
+{
+    margin: 0%;
+}
+.card_popular a
+{
+    display: flex;
 }

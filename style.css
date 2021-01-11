@@ -1,28 +1,25 @@
-.logo
+.logo_reservia
 {
     margin-top: 5%;
     width: 23%;
 	height: 60%;
 }
-.tete
+.head
 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2%;
 }
-ul
+nav ul
 {
     display: flex;
     list-style: none;
+    margin-top: 5%;
 }
-li
+nav ul li
 {
     justify-content: space-around;
     margin-left: 60px;
-}
-.inscrire
-{
-    padding-right: 50px;
 }
 nav
 {
@@ -34,29 +31,31 @@ body
     margin: auto;
     font-family: 'Raleway', sans-serif;
 }
-nav a:link 
+nav a
 { 
     text-decoration:none; 
+    color: black;
 } 
 nav a:hover
 {
     color: #0065FC;
-    border-top: #0065FC solid 5px;
-    padding-top: 13px;
-}
-nav a 
-{
-    color: black;
+    border-top: #0065FC solid 8px;
+    padding-top: 1.2rem ;
 }
 .sous_titre
 {
     margin-bottom: 1%;
 }
-h1
+.sous_titre h1
 {
     font-size: 18px;
     text-decoration: bold;
 }
+
+
+
+
+
 .search_bar
 {
     display: flex;
@@ -100,10 +99,17 @@ h1
     font-weight: bold;
     cursor: pointer;
 }
+
+
+
+
+
 .titre_filtre
 {
     font-weight: bold;
     display: flex;
+    margin-right: 20px;
+    font-weight: 700;
 }
 .icon
 {
@@ -151,12 +157,6 @@ h1
     text-align: center;
     padding-top: 15px;
 }
-
-.titre_filtre
-{
-    margin-right: 20px;
-    font-weight: 700;
-}
 .info
 {
     display: flex;
@@ -179,6 +179,11 @@ h1
     font-weight: 400;
     font-size: 0.9em;
 }
+
+
+
+
+
 .hosting
 {
     display: flex;
@@ -204,7 +209,7 @@ h1
 {
     flex-direction: column;
 }
-.img_heb
+.img_hosting
 {
     width: 100%;
     height: 115px;
@@ -356,9 +361,15 @@ h1
 {
     display: flex;
 }
+
+
+
+
+
 .activity_block
 {
     margin-top: 3%;
+    height: 36rem;                  /* probleme*/
 }
 .activity
 {
@@ -412,20 +423,35 @@ h1
     object-position: center;
     height: 87%;
 }
-.activity_medium
+.activity_medium_fort
 {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 76%;
+    height: 78%;
 }
-.activity_small
+.activity_medium_parc
 {
     width: 100%;
     object-fit: cover;
-    height: 68%;
+    object-position: center;
+    height: 75%;
+}
+.activity_small_iles
+{
+    width: 100%;
+    object-fit: cover;
+    height: 63%;
     object-position: center;
 }
+.activity_small_notre_dame
+{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    object-position: center;
+}
+
 .img_activity
 {
     border-radius: 25px 25px 0 0;
@@ -442,4 +468,42 @@ h1
 .cadre a:hover
 {
     color: #0065FC;
+}
+
+
+
+
+
+footer                                  /* probleme*/
+{
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    padding: 3% 0 2% 3% ;
+}
+footer span
+{
+    font-weight: bold;
+}
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover
+{
+    color: #0065FC;
+}
+.a_propos
+{
+    flex-direction: column;
+    margin-right: 18%;
+}
+.nos_hebergements
+{
+    flex-direction: column;
+    margin-right: 18%;
+}
+.assist
+{
+    flex-direction: column;
 }

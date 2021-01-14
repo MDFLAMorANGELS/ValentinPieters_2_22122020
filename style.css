@@ -1,3 +1,10 @@
+body
+{
+    max-width: 1340px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
 .logo_reservia
 {
     margin-top: 5%;
@@ -10,6 +17,11 @@
     justify-content: space-between;
     margin-bottom: 2%;
 }
+nav
+{
+    font-family: 'Raleway', sans-serif;
+    width: 37%;
+}
 nav ul
 {
     display: flex;
@@ -19,17 +31,7 @@ nav ul
 nav ul li
 {
     justify-content: space-around;
-    margin-left: 60px;
-}
-nav
-{
-    font-family: 'Raleway', sans-serif;
-}
-body
-{
-    width: 1340px;
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
+    margin-left: 15%;
 }
 nav a
 { 
@@ -67,8 +69,6 @@ nav a:hover
 .icon_search
 {
     padding: 1rem 1rem 0.6rem 1rem;
-    width: 20px;
-    height: 22px;
     background-color: rgb(242, 242, 242);
     align-items: center;
     justify-content: center;
@@ -108,7 +108,7 @@ nav a:hover
 {
     font-weight: bold;
     display: flex;
-    margin-right: 20px;
+    margin-right: 2%;
     font-weight: 700;
 }
 .icon
@@ -132,10 +132,11 @@ nav a:hover
     display: flex;
     border: 2px solid #F2F2F2;
     border-radius: 2rem;
-    margin-right: 20px;
-    padding-right: 50px;
-    height: 48px;
-    margin-bottom: 1rem;
+    margin-right: 1.5%;
+    padding-right: 1%;
+    height: 3%;
+    margin-bottom: 1%;
+    width: 15%;
 }
 .filtre a
 {
@@ -156,6 +157,7 @@ nav a:hover
     cursor: pointer;
     text-align: center;
     padding-top: 15px;
+    width: 88%;
 }
 .info
 {
@@ -369,7 +371,7 @@ nav a:hover
 .activity_block
 {
     margin-top: 3%;
-    height: 36rem;                  /* probleme*/
+                      /* probleme*/
 }
 .activity
 {
@@ -378,8 +380,10 @@ nav a:hover
 .grid-container1
 {
     display: grid;
-    grid-template-columns: 325px 325px;
-    grid-template-rows: 35% 20%;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    grid-template-rows: 60% 35%;
+    max-height: 440px ;
     gap: 3% 0;
     grid-template-areas:
       "cadre1 cadre2"
@@ -389,8 +393,10 @@ nav a:hover
 .grid-container2
 {
     display: grid;
-    grid-template-columns: 325px 325px;
-    grid-template-rows: 25% 30%;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    grid-template-rows: 35% 60%;
+    max-height: 440px ;
     gap: 3% 0;
     grid-template-areas:
       "cadre1 cadre3"

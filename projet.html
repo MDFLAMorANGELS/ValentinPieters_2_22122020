@@ -16,7 +16,7 @@
 <body>
     <nav>
         <div class="head">
-            <a href="#"><img src="images/logo/Reservia@3x.png" title="logo reservia" class="logo_reservia" /></a>
+            <img src="images/logo/Reservia@3x.png" title="logo reservia" class="logo_reservia" />
                 <ul class="navbar">
                     <li class="hebergement_nav navlink">
                         <a href="#hosting">Hébergements</a>
@@ -42,46 +42,51 @@
             </div>
             <form class="form_ville" method="POST" action="#">
                 <input type="search" name="ville" id="ville" maxlength="25" value="Marseille, France" size="15">
-            </form>
             <div class="search_button">
                 <input type="submit" value="Rechercher" id="recherche" />
+                <button class="icon_submit" type=submit>
+                    <i class="fas fa-search icon_loupe"></i>
+                </button>
             </div>
+            </form>
         </div>
+        <div class="les_filtres">
+        <p class="titre_filtre">Filtres</p>
         <div class="filtres">
-            <p class="titre_filtre">Filtres</p>
-            <div class="filtre">
+            <div class="filtre_economique">
                 <div class="icon">
                     <i class="fas fa-money-bill-wave"></i>
                 </div>
-                <div class="titre1">
-                    <a href="#" class="lien_filtre">Economique</a>
+                <div class="titre">
+                    <a href="#" class="lien_economique">Economique</a>
                 </div>
             </div>
-            <div class="filtre">
+            <div class="filtre_familial">
                 <div class="icon">
                     <i class="fas fa-child"></i>
                 </div>
-                <div class="titre2">
-                    <a href="#" class="lien_filtre">Familial</a>
+                <div class="titre">
+                    <a href="#" class="lien_familial">Familial</a>
                 </div>
             </div>
-            <div class="filtre">
+            <div class="filtre_romantique">
                 <div class="icon">
                     <i class="fas fa-heart"></i>
                 </div>
-                <div class="titre3">
-                    <a href="#" class="lien_filtre">Romantique</a>
+                <div class="titre">
+                    <a href="#" class="lien_romantique">Romantique</a>
                 </div>
             </div>
-            <div class="filtre">
+            <div class="filtre_animal">
                 <div class="icon">
                     <i class="fas fa-dog"></i>
                 </div>
-                <div class="titre4">
-                    <a href="#" class="lien_filtre">Animaux autorisé</a>
+                <div class="titre">
+                    <a href="#" class="lien_animal">Animaux autorisé</a>
                 </div>
             </div>
         </div>
+    </div>
         <div class="info">
             <div class="icon_info">
                 <i class="fas fa-info"></i>

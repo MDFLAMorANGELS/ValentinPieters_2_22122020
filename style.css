@@ -20,6 +20,7 @@ body
 nav ul
 {
     width: 37%;
+    margin-right: 10%;
 }
 nav ul
 {
@@ -30,7 +31,7 @@ nav ul
 nav ul li
 {
     justify-content: space-around;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 nav a
 { 
@@ -45,7 +46,7 @@ nav  ul a:hover
 {
     color: #0065FC;
     border-top: #0065FC solid 5px;
-    padding-top: 60px ;
+    padding-top: 63px ;
 }
 .sous_titre
 {
@@ -140,8 +141,8 @@ form
     font-weight: 900;
     background-color: #DEEBFF;
     border-radius: 100%;
-    height: 3rem;
-    width: 3rem;
+    height: 50px;
+    width: 50px;
     justify-content: center;
 }
 .les_filtres
@@ -153,6 +154,14 @@ form
     display: flex;
     width: 100%;
 }
+.filtres i 
+{
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+}
 .filtre_economique
 {
     display: flex;
@@ -162,7 +171,6 @@ form
     padding-right: 0.5%;
     height: 72%;
     margin-bottom: 1%;
-    width: 13%;
 }
 .filtre_familial
 {
@@ -173,7 +181,6 @@ form
     padding-right: 0.5%;
     height: 72%;
     margin-bottom: 1%;
-    width: 10%;
 }
 .filtre_romantique
 {
@@ -184,7 +191,6 @@ form
     padding-right: 1%;
     height: 72%;
     margin-bottom: 1%;
-    width: 13%;
 }
 .filtre_animal
 {
@@ -195,7 +201,6 @@ form
     padding-right: 0.5%;
     height: 72%;
     margin-bottom: 1%;
-    width: 16%;
 }
 .titre a
 {
@@ -210,7 +215,7 @@ form
     color: black;
     display: flex;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 18px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -223,7 +228,7 @@ form
     color: black;
     display: flex;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 18px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -236,7 +241,7 @@ form
     color: black;
     display: flex;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 18px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -249,7 +254,7 @@ form
     color: black;
     display: flex;
     font-weight: bold;
-    padding-left: 4%;
+    padding-left: 4px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -626,8 +631,8 @@ footer a:hover
     body
     {
         min-width: auto;
-        margin: 0;
-        width: 375px;
+        margin: auto;
+        width: 100%;
     }
     .logo_reservia
     {

@@ -19,19 +19,14 @@ body
 }
 nav ul
 {
-    width: 37%;
-    margin-right: 10%;
-}
-nav ul
-{
     display: flex;
     list-style: none;
-    margin-top: 5%;
+    margin-top: 3%;
+    justify-content: flex-end;
 }
 nav ul li
 {
-    justify-content: space-around;
-    margin-left: 20%;
+    padding-left: 30%;
 }
 nav a
 { 
@@ -46,7 +41,7 @@ nav  ul a:hover
 {
     color: #0065FC;
     border-top: #0065FC solid 5px;
-    padding-top: 63px ;
+    padding-top: 37px ;
 }
 .sous_titre
 {
@@ -289,7 +284,6 @@ form
 
 
 
-
 .hosting
 {
     display: flex;
@@ -297,8 +291,8 @@ form
 .hosting_city
 {
     background-color: #F2F2F2;
-    padding: 1rem 0rem 0rem 2rem;
-    margin-right: 1.5rem;
+    padding: 1% 0 0 3%;
+    margin-right: 3%;
     border-radius: 25px 25px 25px 25px;
     flex: 2.6;
 }
@@ -310,6 +304,7 @@ form
 {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 4%;
 }
 .hosting_city_list a
 {
@@ -397,12 +392,11 @@ form
 }
 .hosting_popular
 {
-    flex: 1.1;
+    flex: 1.2;
     background-color: #F2F2F2;
     border-radius: 25px;
     text-align: center;
     padding: 3% 1% 2% 1%;
-    margin-left: 0.2rem;
 }
 .hosting_card_popular
 {
@@ -432,7 +426,7 @@ form
     display: flex;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
     margin: 3%;
-    width: 90%;
+    width: 92%;
 }
 .card_popular .note
 {
@@ -455,8 +449,8 @@ form
     object-fit: cover;
     object-position: center;
     align-items: flex-start;
-    margin-right: 5%;
-    height: 145px;
+    margin-right: 3%;
+    height: 150px;
 }
 .desc_poplular
 {
@@ -475,7 +469,9 @@ form
 }
 
 
-
+h3{
+    font-size: 105%;
+}
 
 
 .activity_block
@@ -497,7 +493,7 @@ form
     grid-template-areas:
       "cadre1 cadre2"
       "cadre1 cadre3";
-      margin-right: 3%;
+      margin-right: 2%;
 }
 .grid-container2
 {
@@ -588,7 +584,6 @@ form
 
 
 
-
 footer                                 
 {
     display: flex;
@@ -623,10 +618,49 @@ footer a:hover
     flex-direction: column;
 }
 
+@media screen and (max-width: 1024px)
+{
+    body
+    {
+        width: 95%;
+    }
+    .logo_reservia
+    {
+        width: 13%;
+    }
+    .search_bar
+    {
+        margin-bottom: 2%;
+    }
+    .les_filtres
+    {
+        flex-direction: column;
+    }
+    .hosting_city
+    {
+        flex: 2;
+    }
+    .hosting_city_list
+    {
+        margin: 0;
+    }
+    .hosting_card
+    {
+        width: 45%;
+    }
+    .card_popular
+    {
+        margin: 9% 0;
+        width: 98%;
+        height: 180px;
+    }
+    .img_pop
+    {
+        height: auto;
+    }
+}
 
-
-
-@media screen and (max-width: 425px)
+@media screen and (max-width: 800px)
 {
     body
     {
@@ -634,6 +668,82 @@ footer a:hover
         margin: auto;
         width: 100%;
     }
+    header
+    {
+        margin: 0 4%;
+    }
+    .logo_reservia
+    {
+        width: 15%;
+        margin-left: 1%;
+    }
+    nav ul 
+    {
+        margin-right: 5%;
+    }
+    .filtres
+    {
+        flex-wrap: wrap;
+    }
+    .filtre_economique
+    {
+        margin-right: 4%;
+    }
+    .filtre_familial
+    {
+        margin-right: 4%;
+    }
+    .filtre_romantique
+    {
+        margin-right: 4%;
+    }
+    .filtre_animal
+    {
+        margin-right: 0;
+    }
+    .hosting
+    {
+        flex-direction: column;
+    }
+    .hosting_city
+    {
+        margin: 0;
+        padding: 0 0 0 5%;
+        background-color: white;
+    }
+    .hosting_popular
+    {
+        margin: 2% 4%;
+    }
+    .card_popular
+    {
+        margin: 3% 0;
+    }
+    .activity_block
+    {
+        margin: 0 4%;
+    }
+    .activity
+    {
+        flex-direction: column;
+    }
+    .grid-container1,.grid-container2
+    {
+        width: 100%;
+    }
+    .a_propos
+    {
+        margin-right: 10%;
+    }
+    .nos_hebergements
+    {
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width: 600px)
+{
     .logo_reservia
     {
         margin:  0 15px 0 15px;
@@ -669,7 +779,7 @@ footer a:hover
     {
         border-bottom: 2px solid #F2F2F2;
         padding-bottom: 1;
-        width: 50%;
+        width: 300px;
         text-align: center;
     }
     nav  ul a:hover
@@ -695,6 +805,7 @@ footer a:hover
         margin-left: 0%;
         align-items: center;
         height: 30px;
+        padding: 0;
     }
     nav a
     { 
@@ -726,8 +837,7 @@ footer a:hover
     .search_bar
     {
         display: flex;
-        width: 80%;
-        margin-right: 15px;
+        width: 290px;
         margin-bottom: 8%;
         border: #F2F2F2 1px solid;
         border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
@@ -776,11 +886,12 @@ footer a:hover
         color: white;
         font-weight: bold;
         display: flex;
-        width: 65%;
         border-radius: 35%;
         align-items: center;
         justify-content: center;
         border: none;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .icon_loupe
     {
@@ -843,7 +954,7 @@ footer a:hover
         display: flex;
         border: 2px solid #F2F2F2;
         border-radius: 2rem;
-        margin-right: 2%;
+        margin-right: 3%;
         padding-right: 0.5%;
         height: 10%;
         margin-bottom: 3%;
@@ -1077,7 +1188,7 @@ footer a:hover
         border-radius: 0px;
         text-align: center;
         padding: 3% 0% 2% 0%;
-        margin-left: 0.2rem;
+        margin-left: 0;
     }
     .hosting_card_popular
     {

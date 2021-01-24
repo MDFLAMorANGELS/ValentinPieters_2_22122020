@@ -5,6 +5,9 @@ body
     margin: auto;
     font-family: 'Raleway', sans-serif;
 }
+
+                /*Logo , Navigation bar, Sous titre*/
+
 .logo_reservia
 {
     margin-top: 1%;
@@ -53,9 +56,7 @@ nav  ul a:hover
     text-decoration: bold;
 }
 
-
-
-
+            /* Search bar*/
 
 .search_bar
 {
@@ -113,9 +114,7 @@ form
     display: none;
 }
 
-
-
-
+            /*Filtres, Info*/
 
 .titre_filtre
 {
@@ -281,8 +280,7 @@ form
     font-size: 0.9em;
 }
 
-
-
+                /*Hosting city, Hosting popular*/
 
 .hosting
 {
@@ -337,7 +335,6 @@ form
 {
     margin: 0%;
 }
-
 .desc_hebergement:hover
 {
     color: #0065FC;
@@ -467,12 +464,11 @@ form
 {
     display: flex;
 }
-
-
 h3{
     font-size: 105%;
 }
 
+                /*Activity*/
 
 .activity_block
 {
@@ -581,8 +577,7 @@ h3{
     color: #0065FC;
 }
 
-
-
+                /*Footer*/
 
 footer                                 
 {
@@ -618,12 +613,15 @@ footer a:hover
     flex-direction: column;
 }
 
+                /*Responsive Screen -1024px*/
+
 @media screen and (max-width: 1024px)
 {
     body
     {
         width: 95%;
     }
+                /*Logo , Navigation bar,*/
     .logo_reservia
     {
         width: 13%;
@@ -637,6 +635,7 @@ footer a:hover
     {
         padding: 5%;
     }
+                /*Filtres, Hosting City, Hosting popular*/
     .les_filtres
     {
         flex-direction: column;
@@ -665,6 +664,8 @@ footer a:hover
     }
 }
 
+                        /*Responsive Screen -800px*/
+
 @media screen and (max-width: 800px)
 {
     body
@@ -677,6 +678,9 @@ footer a:hover
     {
         margin: 0 4%;
     }
+
+                 /*Logo , Navigation bar, Search bar*/
+
     .logo_reservia
     {
         width: 15%;
@@ -694,6 +698,9 @@ footer a:hover
     {
         padding: 6%;
     }
+
+                    /*Filtres*/
+
     .filtres
     {
         flex-wrap: wrap;
@@ -714,6 +721,9 @@ footer a:hover
     {
         margin-right: 0;
     }
+
+                    /*Hosting City, Hosting popular*/
+
     .hosting
     {
         flex-direction: column;
@@ -732,6 +742,9 @@ footer a:hover
     {
         margin: 3% 0;
     }
+
+                    /*Activity*/
+
     .activity_block
     {
         margin: 0 4%;
@@ -744,6 +757,9 @@ footer a:hover
     {
         width: 100%;
     }
+
+                    /*Footer*/
+
     .a_propos
     {
         margin-right: 10%;
@@ -755,8 +771,11 @@ footer a:hover
 
 }
 
+                    /*Responsive Screen -600px*/
+
 @media screen and (max-width: 600px)
 {
+                     /*Logo , Navigation bar, Sous titre*/
     .logo_reservia
     {
         margin:  0 15px 0 15px;
@@ -845,8 +864,7 @@ footer a:hover
         margin: 3% 0 0 0;
     }
     
-    
-
+                /*Search bar*/
 
     .search_bar
     {
@@ -884,9 +902,7 @@ footer a:hover
         font-size: 130%;
     }
 
-
-    
-
+                /*Filtres*/
     
     .filtre_economique
     {
@@ -932,7 +948,7 @@ footer a:hover
         min-width: 1.4rem;
     }
 
-
+                    /*Hosting City, Hosting popular*/
 
     .hosting
     {
@@ -965,9 +981,6 @@ footer a:hover
     {
         padding: 2% 4% 1% 0;
     }
-
-
-
     .grid-container1
     {
         display: grid;
@@ -1037,6 +1050,8 @@ footer a:hover
         height: 70%;
     }
     
+                /*Footer*/
+
     footer
     {
         flex-direction: column;

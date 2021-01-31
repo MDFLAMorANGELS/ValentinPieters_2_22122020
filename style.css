@@ -1,3 +1,8 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+}
 body
 {
     width: 100%;
@@ -28,12 +33,19 @@ nav ul
 {
     display: flex;
     list-style: none;
-    margin-top: 3%;
+    margin-top: 0;
     justify-content: flex-end;
 }
 nav ul li
 {
-    padding-left: 30%;
+    margin-left: 30%;
+    padding-top: 37px;
+    padding: 37px 5% 0 5%;
+    border: solid 3px transparent;
+}
+nav ul li:hover
+{
+    border-top: solid 3px #0065FC;
 }
 nav a
 { 
@@ -43,12 +55,6 @@ nav a
 .register_nav
 {
     color: #0065FC;
-}
-nav  ul a:hover
-{
-    color: #0065FC;
-    border-top: #0065FC solid 5px;
-    padding-top: 37px ;
 }
 .sous_titre
 {
@@ -70,10 +76,11 @@ nav  ul a:hover
     border: #F2F2F2 1px solid;
     border-radius:  1rem;
     height: 50px;
+    justify-content: space-between;
 }
 .icon_search
 {
-    padding: 4.5%;
+    padding: 5%;
     background-color: #F2F2F2;
     align-items: center;
     justify-content: center;
@@ -82,20 +89,22 @@ nav  ul a:hover
 #ville
 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     height: 100%;
     border: none;
     align-items: center;
     justify-content: center;
-    padding: 0 0 0 5%;
+    padding: 0 0 0 3%;
+    flex: 1;
 }
 form
 {
     display: flex;
+    flex: 1;
 }
 #recherche
 {
-    background-color: blue;
+    background-color: #0065FC;
     color: white;
     border-radius: 0 1rem 1rem 0;
     border: none;
@@ -139,9 +148,12 @@ form
     font-weight: 900;
     background-color: #DEEBFF;
     border-radius: 100%;
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
     justify-content: center;
+    border: 2px solid #DEEBFF;
+    position: relative;
+    left: -2px;
 }
 .les_filtres
 {
@@ -154,50 +166,16 @@ form
 }
 .filtres i 
 {
-    height: 48px;
-    width: 48px;
-    text-align: center;
-    line-height: 48px;
     font-size: 20px;
 }
-.filtre_economique
+.filtre
 {
     display: flex;
     border: 2px solid #F2F2F2;
     border-radius: 2rem;
     margin-right: 1.5%;
-    padding-right: 0.5%;
-    height: 72%;
-    margin-bottom: 1%;
-}
-.filtre_familial
-{
-    display: flex;
-    border: 2px solid #F2F2F2;
-    border-radius: 2rem;
-    margin-right: 1.5%;
-    padding-right: 0.5%;
-    height: 72%;
-    margin-bottom: 1%;
-}
-.filtre_romantique
-{
-    display: flex;
-    border: 2px solid #F2F2F2;
-    border-radius: 2rem;
-    margin-right: 1.5%;
-    padding-right: 1%;
-    height: 72%;
-    margin-bottom: 1%;
-}
-.filtre_animal
-{
-    display: flex;
-    border: 2px solid #F2F2F2;
-    border-radius: 2rem;
-    margin-right: 1.5%;
-    padding-right: 0.5%;
-    height: 72%;
+    padding-right: 1.5%;
+    height: 75%;
     margin-bottom: 1%;
 }
 .titre a
@@ -208,7 +186,7 @@ form
 {
     color: #0065FC;
 }
-.lien_economique
+.lien
 {
     color: black;
     display: flex;
@@ -218,47 +196,23 @@ form
     align-items: center;
     cursor: pointer;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 15px;}
+.lien_economique
+{
     width: 65%;
 }
 .lien_familial
 {
-    color: black;
-    display: flex;
-    font-weight: bold;
-    padding-left: 18px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-align: center;
-    padding-top: 15px;
     width: 55%;
 }
 .lien_romantique
 {
-    color: black;
-    display: flex;
-    font-weight: bold;
-    padding-left: 18px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-align: center;
-    padding-top: 15px;
     width: 65%;
 }
 .lien_animal
 {
-    color: black;
-    display: flex;
-    font-weight: bold;
-    padding: 0 10px 0 4px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-align: center;
-    padding-top: 15px;
-    width: 100%;
+    padding: 10% 0%;
+    width: 150px;
 }
 .info
 {
@@ -532,7 +486,7 @@ h3{
     width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 84%;
+    height: 83%;
 }
 .activity_medium_fort
 {
@@ -624,8 +578,8 @@ footer a:hover
                 /*Responsive Screen -1024px*/
 
 @media screen and (max-width: 1024px)
-{
-    body
+{       
+    .container
     {
         width: 95%;
     }
@@ -637,12 +591,8 @@ footer a:hover
     .search_bar
     {
         width: 35%;
-        margin-bottom: 2%;
     }
-    .icon_search
-    {
-        padding: 5%;
-    }
+
                 /*Filtres, Hosting City, Hosting popular*/
     .les_filtres
     {
@@ -676,12 +626,6 @@ footer a:hover
 
 @media screen and (max-width: 800px)
 {
-    body
-    {
-        min-width: auto;
-        margin: auto;
-        width: 100%;
-    }
     header
     {
         margin: 0 4%;
@@ -698,6 +642,10 @@ footer a:hover
     {
         margin-right: 5%;
     }
+    nav ul li
+    {
+        margin-left: 10%;
+    }
     .search_bar
     {
         width: 50%;
@@ -713,21 +661,9 @@ footer a:hover
     {
         flex-wrap: wrap;
     }
-    .filtre_economique
+    .filtre
     {
         margin-right: 4%;
-    }
-    .filtre_familial
-    {
-        margin-right: 4%;
-    }
-    .filtre_romantique
-    {
-        margin-right: 4%;
-    }
-    .filtre_animal
-    {
-        margin-right: 0;
     }
 
                     /*Hosting City, Hosting popular*/
@@ -819,6 +755,14 @@ footer a:hover
         list-style: none;
         margin-top: 0%;
     }
+    nav ul li
+    {
+        border: none;
+    }
+    nav ul li:hover
+    {
+        border: none;
+    }
     .navlink
     {
         border-bottom: 2px solid #F2F2F2;
@@ -906,8 +850,8 @@ footer a:hover
         align-items: center;
         justify-content: center;
         border: none;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 17px;
+        padding-left: 17px;
     }
     .icon_loupe
     {
@@ -995,13 +939,10 @@ footer a:hover
     }
     .grid-container1
     {
-        display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
         grid-template-rows: 45% 45% 45%;
         height: 10%;
-        margin-bottom: 78%;
-        gap: 5%;
+        margin-bottom: 56%;
         grid-template-areas:
         "cadre1 cadre1"
         "cadre2 cadre2"
@@ -1010,13 +951,10 @@ footer a:hover
     }
     .grid-container2
     {
-        display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
         grid-template-rows: 45% 45% 45%;
         height: 10%;
         margin-bottom: 240px;
-        gap: 5%;
         grid-template-areas:
         "cadre1 cadre1"
         "cadre2 cadre2"
@@ -1041,27 +979,11 @@ footer a:hover
         width: 95%;
         margin-left: 2%;
     }
-    .activity_large
+    .img_activity
     {
         height: 70%;
     }
-    .activity_medium_fort
-    {
-        height: 70%;
-    }
-    .activity_medium_parc
-    {
-        height: 70%;
-    }
-    .activity_small_iles
-    {
-        height: 70%;
-    }
-    .activity_small_notre_dame
-    {
-        height: 70%;
-    }
-    
+
                 /*Footer*/
 
     footer
@@ -1072,13 +994,5 @@ footer a:hover
     .container.flex
     {
         flex-direction: column;
-    }
-    .a_propos
-    {
-        margin-right: 0%;
-    }
-    .assist
-    {
-        margin-right: 0%;
     }
 }

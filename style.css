@@ -65,6 +65,10 @@ nav a
     font-size: 18px;
     text-decoration: bold;
 }
+.register_nav a 
+{
+    color: #0065FC;
+}
 
             /* Search bar*/
 
@@ -783,7 +787,6 @@ footer a:hover
     .register_nav a 
     {
         position: absolute;
-        color: #0065FC;
         top: 25px;
         right: 15px;
     }

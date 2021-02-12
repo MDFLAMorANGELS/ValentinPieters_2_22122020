@@ -67,7 +67,7 @@ nav a
 .sous_titre h1
 {
     font-size: 18px;
-    text-decoration: bold;
+    font-weight: bold;
 }
 .register_nav a 
 {
@@ -774,7 +774,7 @@ footer a:hover
     .navlink
     {
         border-bottom: 2px solid #F2F2F2;
-        padding-bottom: 1;
+        padding-bottom: 0;
         width: 300px;
         text-align: center;
     }

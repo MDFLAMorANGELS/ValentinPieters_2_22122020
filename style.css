@@ -398,6 +398,7 @@ form
 {
     text-decoration: none;
     color: black;
+    width: 100%;
 }
 .card_popular a:hover
 {
@@ -420,6 +421,7 @@ form
     align-items: center;
     text-align: justify;
     padding: 2% 8% 1% 0;
+    width: 52%;
 }
 .desc_poplular h3
 {

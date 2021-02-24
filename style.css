@@ -999,6 +999,6 @@ footer a:hover
     }
     .container.flex
     {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
